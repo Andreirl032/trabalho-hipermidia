@@ -1,0 +1,186 @@
+/* Estilo base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    /* width: 90%;
+    max-width: 1200px;
+    margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+
+}
+
+header{
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: #0078d7;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header{
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.requisition-button{
+    width: min-content;
+    height: min-content;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.about-us-div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 1rem;
+    background-color: aquamarine;
+}
+
+.about-us-title{
+    font-weight: bold;
+    font-size: xx-large;
+    margin: 0;
+}
+.about-us-text{
+    font-weight: normal;
+    font-size: large;
+    margin: 0;
+}
+
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+#title {
+    background-color: #e1f5fe;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#title h2 {
+    margin: 0 0 10px;
+    font-size: 2.5em;
+}
+
+#title p {
+    font-size: 1.2em;
+}
+
+/* Apps */
+#apps {
+    padding: 50px 0;
+}
+
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.app-item {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.app-item h3 {
+    margin-top: 0;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0078d7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+/* Serviços */
+#services {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Contato */
+#contact {
+    padding: 50px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
