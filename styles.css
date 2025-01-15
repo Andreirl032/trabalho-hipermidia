@@ -16,7 +16,15 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
 
+}
+
+.logo-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 header{
@@ -48,6 +56,7 @@ header{
     padding-left: 3rem;
     gap: 1rem;
     background-color: aquamarine;
+    width: 30rem;
 }
 
 .about-us-title{
@@ -59,6 +68,14 @@ header{
     font-weight: normal;
     font-size: large;
     margin: 0;
+}
+
+.about-us-elements-div{
+
+}
+
+.presentation-container{
+
 }
 
 

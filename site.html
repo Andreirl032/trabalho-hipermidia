@@ -1,95 +1,114 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startup de Tecnologia</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h1>TechStartup</h1>
-            <nav>
-                <ul class="headerList">
-                    <li><a href="#apps">Apps</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section id="title">
-            <div class="container">
-                <h2>Transformando ideias em tecnologia!</h2>
-                <p>Contrate-nos para desenvolver o seu próprio aplicativo!</p>
-                <button class="requisition-button">Requisição</button>
-            </div>
-        </section>
-
-        <section id="about-us">
-            <div class="about-us-div">
-                <h1 class="about-us-title">Sobre nós</h1>
-                <h2 class="about-us-text">Nós somos uma empresa muito legau</h2>
-            </div>
-        </section>
-
-        <section id="apps">
-            <div class="appsDiv">
-                <h2>Nossos Aplicativos</h2>
-                <div class="apps-grid">
-                    <div class="app-item">
-                        <h3>App 1</h3>
-                        <p>Descrição breve do App 1.</p>
-                        <a href="#" class="button">Download</a>
-                    </div>
-                    <div class="app-item">
-                        <h3>App 2</h3>
-                        <p>Descrição breve do App 2.</p>
-                        <a href="#" class="button">Download</a>
-                    </div>
-                    <div class="app-item">
-                        <h3>App 3</h3>
-                        <p>Descrição breve do App 3.</p>
-                        <a href="#" class="button">Download</a>
-                    </div>
+      <header>
+          <div class="header">
+              <div class="logo-title">
+                  <img src="rowlet.png" alt="logo" width="50" height="50" />
+                  <h1>TechStartup</h1>
                 </div>
+                <nav>
+                    <ul class="headerList">
+                        <li><a href="#apps">Apps</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="title">
+        <div class="container">
+            <h2>Transformando ideias em tecnologia!</h2>
+          <p>Contrate-nos para desenvolvermos o seu próprio aplicativo!</p>
+          <a href="#contact" class="button">Requisição</a>
+        </div>
+    </section>
+    
+      <section id="about-us">
+        <div class="about-us-div">
+          <h1 class="about-us-title">Sobre nós</h1>
+          <h2 class="about-us-text">
+            Nossa jornada começou com a paixão por transformar ideias em
+            soluções digitais impactantes. Desde a nossa fundação, temos nos
+            dedicado a criar aplicativos inovadores que ajudam empresas a
+            crescer e se conectar melhor com seus clientes.
+          </h2>
+        </div>
+        <div class="about-us-elements-div">
+            <div class="presentation-container">
+                <button onclick="decreaseSlideNumber()" class="button">/--</button>
+                <p id="presentation-text">Texto</p>
+                <button onclick="increaseSlideNumber()" class="button">--></button>
             </div>
-        </section>
+        </div>
+      </section>
 
-        <section id="services">
-            <div class="container">
-                <h2>Contrate-nos</h2>
-                <p>Precisa de um app personalizado? Nossa equipe está pronta para transformar sua ideia em realidade.</p>
-                <a href="#contact" class="button">Fale conosco</a>
+      <section id="apps">
+        <div class="appsDiv">
+          <h2>Nossos Aplicativos</h2>
+          <div class="apps-grid">
+            <div class="app-item">
+              <h3>App 1</h3>
+              <p>Descrição breve do App 1.</p>
+              <a href="#" class="button">Download</a>
             </div>
-        </section>
-
-        <section id="contact">
-            <div class="container">
-                <h2>Contato</h2>
-                <form action="#" method="post">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-
-                    <button type="submit" class="button">Enviar</button>
-                </form>
+            <div class="app-item">
+              <h3>App 2</h3>
+              <p>Descrição breve do App 2.</p>
+              <a href="#" class="button">Download</a>
             </div>
-        </section>
+            <div class="app-item">
+              <h3>App 3</h3>
+              <p>Descrição breve do App 3.</p>
+              <a href="#" class="button">Download</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container">
+          <h2>Contrate-nos</h2>
+          <p>
+            Precisa de um app personalizado? Nossa equipe está pronta para
+            transformar sua ideia em realidade.
+          </p>
+          <a href="#contact" class="button">Fale conosco</a>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Contato</h2>
+          <form action="#" method="post">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="button">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 TechStartup. Todos os direitos reservados.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2025 TechStartup. Todos os direitos reservados.</p>
+      </div>
     </footer>
-</body>
+    <script src="site.js"></script>
+  </body>
 </html>
