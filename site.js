@@ -1,14 +1,18 @@
 var presentationText = document.getElementById("presentation-text");
+var presentationTitle = document.getElementById("presentation-title");
 var slideNumber = 1
 function changeText(){
 if(slideNumber===1){
-    presentationText.textContent="Texto"
+    presentationText.textContent="Desenvolver aplicativos personalizados que inspirem, simplifiquem e impulsionem o sucesso dos nossos clientes, oferecendo excelência em tecnologia e design."
+    presentationTitle.textContent="Missão"
 }
 else if(slideNumber===2){
-    presentationText.textContent="Texto2"
+    presentationText.textContent="Ser reconhecida como a principal parceira no desenvolvimento de soluções digitais que moldam o futuro dos negócios."
+    presentationTitle.textContent="Visão"
 }
 else if(slideNumber===3){
-    presentationText.textContent="Texto3"
+    presentationText.textContent="Prezamos pela inovação, excelência, ética e sustentabilidade, sempre trabalhando em parceria com nossos clientes para criar soluções impactantes e de alta qualidade."
+    presentationTitle.textContent="Valores"
 }
 }
 

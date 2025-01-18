@@ -5,36 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Startup de Tecnologia</title>
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-      <header>
-          <div class="header">
-              <div class="logo-title">
-                  <img src="rowlet.png" alt="logo" width="50" height="50" />
-                  <h1>TechStartup</h1>
-                </div>
-                <nav>
-                    <ul class="headerList">
-                        <li><a href="#apps">Apps</a></li>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo-title">
+          <img src="rowlet.png" alt="logo" width="50" height="50" />
+          <h1>TechStartup</h1>
+        </div>
+        <nav>
+          <ul class="headerList">
+            <li><a href="#apps">Apps</a></li>
             <li><a href="#services">Serviços</a></li>
             <li><a href="#contact">Contato</a></li>
           </ul>
         </nav>
-    </div>
-</header>
+      </div>
+    </header>
 
-<main>
-    <section id="title">
+    <main>
+      <section id="title">
         <div class="container">
-            <h2>Transformando ideias em tecnologia!</h2>
+          <h2>Transformando ideias em tecnologia!</h2>
           <p>Contrate-nos para desenvolvermos o seu próprio aplicativo!</p>
           <a href="#contact" class="button">Requisição</a>
         </div>
         <div class="image-content">
-          <img src="rowletBackground.jpg" alt="venha conosco">
-      </div>
-    </section>
-    
+          <img src="rowletBackground.jpg" alt="venha conosco" />
+        </div>
+      </section>
       <section id="about-us">
         <div class="about-us-div">
           <h1 class="about-us-title">Sobre nós</h1>
@@ -46,11 +45,39 @@
           </h2>
         </div>
         <div class="about-us-elements-div">
-            <div class="presentation-container">
-                <button onclick="decreaseSlideNumber()" class="button">/--</button>
-                <p id="presentation-text">Texto</p>
-                <button onclick="increaseSlideNumber()" class="button">--></button>
-            </div>
+          <button onclick="decreaseSlideNumber()" class="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              width="2rem"
+              height="2rem"
+              style="rotate: 180deg"
+            >
+              <path
+                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+              />
+            </svg>
+          </button>
+          <div class="presentation-container">
+            <h1 id="presentation-title">Missão</h1>
+            <p id="presentation-text">
+              Desenvolver aplicativos personalizados que inspirem,
+              simplifiquem e impulsionem o sucesso dos nossos clientes,
+              oferecendo excelência em tecnologia e design.
+            </p>
+          </div>
+          <button onclick="increaseSlideNumber()" class="button center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              width="2rem"
+              height="2rem"
+            >
+              <path
+                d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+              />
+            </svg>
+          </button>
         </div>
       </section>
 
