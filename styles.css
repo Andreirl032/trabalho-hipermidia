@@ -1,10 +1,9 @@
-/* Estilo base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #011118; /* Azul escuro */
-    color: #ddd; /* Texto claro para contraste */
+    background-color: #011118;
+    color: #ddd;
 }
 
 .container {
@@ -20,15 +19,15 @@ body {
 }
 
 .text-content {
-    flex: 1; /* O texto ocupa uma parte proporcional do espaço */
-    max-width: 60%; /* Define uma largura máxima para o texto */
+    flex: 1;
+    max-width: 60%;
 }
 
 .image-content img {
-    max-width: 35%; /* Ajusta a largura da imagem */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 35%;
+    height: auto;
     border-radius: 50%;
-    flex-shrink: 0; /* Garante que a imagem não diminua */
+    flex-shrink: 0;
     position: absolute;
     top: 7rem;
     right: 4rem;
@@ -43,7 +42,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: #0078d7; /* Azul vibrante */
+    background-color: #0078d7; 
     color: #fff;
     padding: 20px 0;
     z-index: 1000;
@@ -157,7 +156,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Hero */
+
 #title {
     background-color: #011118;
     text-align: center;
@@ -174,7 +173,6 @@ nav ul li a {
     font-size: 1.2em;
 }
 
-/* Apps */
 #apps {
     padding: 3rem;
     background-color: #011118;
@@ -216,14 +214,12 @@ nav ul li a {
     background-color: #005bb5;
 }
 
-/* Serviços */
 #services {
     background-color: #011118;
     text-align: center;
     padding: 50px 0;
 }
 
-/* Contato */
 #contact {
     padding: 50px 0;
     background-color: #011118;
@@ -257,7 +253,6 @@ form button:hover {
     background-color: #005bb5;
 }
 
-/* Rodapé */
 footer {
     background-color: #011118;
     color: #ddd;
@@ -266,7 +261,6 @@ footer {
     margin-top: 20px;
 }
 
-/* Responsividade para dispositivos menores */
 @media (max-width: 1024px) {
     .container {
         width: 90%;
@@ -286,8 +280,8 @@ footer {
 
     .image-content img {
         margin-left: 0;
-        max-width: 60%; /* Reduz o tamanho da imagem */
-        margin: 1rem auto; /* Centraliza a imagem */
+        max-width: 60%;
+        margin: 1rem auto;
     }
 
     .about-us-div {
@@ -297,7 +291,7 @@ footer {
     }
 
     .apps-grid {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajusta as colunas */
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 
     #contact form input,
@@ -313,7 +307,7 @@ footer {
 
 @media (max-width: 768px) {
     h1, h2 {
-        font-size: 1.5rem; /* Reduz os tamanhos das fontes */
+        font-size: 1.5rem;
     }
 
     .about-us-title {
@@ -334,7 +328,7 @@ footer {
     }
 
     .apps-grid {
-        grid-template-columns: 1fr; /* Coloca os itens em uma única coluna */
+        grid-template-columns: 1fr;
     }
 }
 
@@ -355,7 +349,7 @@ footer {
 
 @media (max-width: 480px) {
     .image-content img {
-        margin: 1rem auto; /* Centraliza e reduz o espaço */
-        max-width: 75%; /* Ajusta o tamanho da imagem */
+        margin: 1rem auto;
+        max-width: 75%;
     }
 }
