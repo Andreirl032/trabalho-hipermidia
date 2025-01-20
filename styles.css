@@ -18,6 +18,18 @@ body {
     margin-bottom: 10rem;
 }
 
+.trending-container{
+    width: 55%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
 .text-content {
     flex: 1;
     max-width: 60%;
@@ -184,6 +196,7 @@ nav ul li a {
 }
 
 #apps {
+    margin-top: 5rem;
     padding: 3rem;
     background-color: #011118;
 }
@@ -313,11 +326,45 @@ form button:hover {
 }
 
 footer {
-    background-color: #011118;
+    background-color: #0078d7;
     color: #ddd;
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.media-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.media-icons svg{
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+
+#instagram:hover{
+    border-radius: 0.6rem;
+    background   : radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+#youtube:hover{
+    fill: red;
+}
+
+#facebook:hover{
+    fill: #3b5998;
+    background-color: white;
+    border-radius: 1.2rem;
 }
 
 @media (max-width: 1024px) {
