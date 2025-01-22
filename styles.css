@@ -499,6 +499,10 @@ footer {
         margin-bottom: 5rem;
     }
 
+    .comments-text{
+        font-size: x-small;
+    }
+
     .app-item {
         width: 100%;
         background: #023245;
@@ -585,13 +589,13 @@ footer {
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-
+/* 
     .audio-player {
         width: 60%;
         padding: 1rem;
         margin-left: -150px;
         margin-top: -20px;
-    }
+    } */
 
     .image-content img {
         max-width: 70%;
