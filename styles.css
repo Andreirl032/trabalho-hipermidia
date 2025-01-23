@@ -21,11 +21,11 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative; /* Posicionamento absoluto */
-    top: -5rem; /* Ajuste a posição conforme necessário */
-    left: 0rem; /* Centralize horizontalmente */
+    position: relative;
+    top: -5rem;
+    left: 0rem;
     /* transform: translateX(-50%); */
-    z-index: 10; /* Garante que ficará acima da imagem */
+    z-index: 10;
     width: 300px;
     height: auto;
 }
@@ -89,16 +89,13 @@ input[type="range"]::-webkit-slider-thumb {
     margin-top: 10rem;
     margin-bottom: 10rem;
 
-    /* Fundo avermelhado e translúcido */
-    background-color: rgba(110, 3, 3, 0.5); /* Vermelho translúcido */
+    background-color: rgba(110, 3, 3, 0.5);
 
-    /* Borda com efeito neon */
     border: 2px solid rgba(255, 0, 0, 0.8);
     box-shadow: 0 0 15px rgba(255, 0, 0, 0.8), 
                 0 0 30px rgba(255, 0, 0, 0.6), 
                 0 0 45px rgba(255, 0, 0, 0.4);
 
-    /* Para arredondar bordas (opcional) */
     border-radius: 10px;
 }
 
@@ -527,16 +524,13 @@ footer {
         margin-top: 10rem;
         margin-bottom: 10rem;
     
-        /* Fundo avermelhado e translúcido */
-        background-color: rgba(110, 3, 3, 0.5); /* Vermelho translúcido */
+        background-color: rgba(110, 3, 3, 0.5);
     
-        /* Borda com efeito neon */
         border: 2px solid rgba(255, 0, 0, 0.8);
         box-shadow: 0 0 15px rgba(255, 0, 0, 0.8), 
                     0 0 30px rgba(255, 0, 0, 0.6), 
                     0 0 45px rgba(255, 0, 0, 0.4);
     
-        /* Para arredondar bordas (opcional) */
         border-radius: 10px;
     }
     .audio-player {
